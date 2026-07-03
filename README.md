@@ -1,4 +1,6 @@
-# grad_pen_ebm
+# A generative process based on energy models incorporating implicit latent spaces
+
+Official code repository for the paper titled "A generative process based on energy models incorporating implicit latent spaces"
 
 We provide scripts for training, evaluating and installing all dependant libraries in "code/script"
 
