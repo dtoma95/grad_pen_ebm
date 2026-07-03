@@ -9,15 +9,18 @@ We also provided a checkpoint for our smaller model, together with it's configur
 
 
 The required libraries can be installed by running the install_requirements bash fle:
-```bash code/scripts/install_requirements.sh
+```
+bash code/scripts/install_requirements.sh
 ```
 
 After activating the `newpt` conda environment we provide the fid evlaution script that can be run by:
 
-```bash code/scripts/evaluate_fid_parallel.py
+```
+bash code/scripts/evaluate_fid_parallel.py
 ```
 
 Finally, ou can train your own energy model, on the CIFAR10 dataset, using our method by running:
 
-```bash code/scripts/train_cifar.py
+```
+bash code/scripts/train_cifar.py
 ```
