@@ -6,3 +6,18 @@ We provide scripts for training, evaluating and installing all dependant librari
 
 Pytorch should automatically download the Cifar10 dataset once one of the scripts are run.
 We also provided a checkpoint for our smaller model, together with it's configuration file in the directories "model" and "options" respectively.
+
+
+The required libraries can be installed by running the install_requirements bash fle:
+```bash code/scripts/install_requirements.sh
+```
+
+After activating the `newpt` conda environment we provide the fid evlaution script that can be run by:
+
+```bash code/scripts/evaluate_fid_parallel.py
+```
+
+Finally, ou can train your own energy model, on the CIFAR10 dataset, using our method by running:
+
+```bash code/scripts/train_cifar.py
+```
